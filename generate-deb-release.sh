@@ -3,10 +3,10 @@
 set -e
 
 # https://earthly.dev/blog/creating-and-hosting-your-own-deb-packages-and-apt-repo/
-cd ../rlbot_gui_rust/tauri-src
+cd ../rlbot_gui_rust/src-tauri
 cargo tauri build
 cd ..
-cp tauri-src/target/release/bundle/deb/rl-bot-gui_*.*.*_amd64.deb ../rlbot_gui_rust_apt/apt-repo/pool/main/
+cp src-tauri/target/release/bundle/deb/rl-bot-gui_*.*.*_amd64.deb ../rlbot_gui_rust_apt/apt-repo/pool/main/
 cd ../rlbot_gui_rust_apt/apt-repo
 dpkg-scanpackages --arch amd64 pool/ > dists/stable/main/binary-amd64/Packages
 cat dists/stable/main/binary-amd64/Packages | gzip -9 > dists/stable/main/binary-amd64/Packages.gz
