@@ -6,13 +6,13 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: The software repository of the RLBotGUI for Debian-based systems
-Date: Fri, 26 Aug 2022 00:10:25 +0000
+Date: Thu, 08 Sep 2022 23:12:19 +0000
 MD5Sum:
- 4a0a5bb28f5350c061a6d7be876194d0 353 main/binary-amd64/Packages.gz
- bc750dc9e44f4be73044f84fec350fc0 456 main/binary-amd64/Packages
+ 3da52772d9b99a82c5cf89c70c991443 352 main/binary-amd64/Packages.gz
+ 149aec2dd9e825a90f13f075b8482b32 456 main/binary-amd64/Packages
 SHA1:
- dbf6357a88d43a984fe089fe8d1d86456a164cc9 353 main/binary-amd64/Packages.gz
- b122a5694774be86570f767b3672ff0d1e013798 456 main/binary-amd64/Packages
+ 122b78708ffd3bdc72cb97f0287ed406e4bdb128 352 main/binary-amd64/Packages.gz
+ bf476db317e62af00f5802614faac91ac7761ccc 456 main/binary-amd64/Packages
 SHA256:
- 415588911b7be24eb8a2a4f0ad2f8d3466cce50edf94235fdd27216bc5f86ffd 353 main/binary-amd64/Packages.gz
- c7ecbc092fd6f405a9645a8af8417f8a994a6ff19920d75b2e52215b9a980e46 456 main/binary-amd64/Packages
+ fc156e4009eabfbbecfc26db8735ed7d35e430d2dcce7e126665e497b50238cf 352 main/binary-amd64/Packages.gz
+ afaa66e3dffb1c53444ce29004ea42c41424ab3a8ce6ff97d815a085c2d1c1dd 456 main/binary-amd64/Packages
