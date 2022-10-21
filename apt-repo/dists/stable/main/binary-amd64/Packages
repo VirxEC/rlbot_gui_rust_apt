@@ -1,14 +1,14 @@
 Package: rl-bot-gui
-Version: 1.0.32
+Version: 1.0.33
 Architecture: amd64
 Maintainer: VirxEC
-Installed-Size: 13449
+Installed-Size: 13454
 Depends: libwebkit2gtk-4.0-37, libgtk-3-0
-Filename: pool/main/rl-bot-gui_1.0.32_amd64.deb
-Size: 9314094
-MD5sum: 4700299069b2eed6359efe391671b6f9
-SHA1: 1a1afcc12515aaf6940d1f3aa4605799d44a7107
-SHA256: db62fd8f675add88d7f5fafb6847e6ab3525aa71e63897fb8214bcdfc0a1faca
+Filename: pool/main/rl-bot-gui_1.0.33_amd64.deb
+Size: 9327348
+MD5sum: 55150985574c82ffc7a0e841bf286aad
+SHA1: 0944ee838a8d3b7729471d7d7eff7573e3165d17
+SHA256: a4f9e55005a924031d0a2c6a7eb62a35f2abdfb6b146d0f0b514ddcfb3d749dc
 Priority: optional
 Description: The RLBot GUI
  The Rust implementation of RLBot's custom GUI
